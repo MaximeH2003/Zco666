@@ -1,0 +1,122 @@
+body{
+    background-image: url(../IMAGES/background.jpg);
+    background-size: cover;
+    font-weight: bold;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24em;
+}
+            /*             TITRE DE LA PAGE            */
+.pseudo{
+    /* background-color:#01efe8; */
+    /* border-radius: 0px 0px 20px 20px; */
+    width: 100%;
+    margin: 0px;
+    background-color: #f1f1f1;
+    color: rgb(73, 73, 73);
+    /* text-decoration: underline; */
+}
+#container{
+    margin-top: 3.5%;   
+}
+h1{
+    margin: 15px;
+    color: white;
+    text-align: center;
+    /* font-weight: lighter; */
+}
+h3{
+    text-align: center;
+    width: 8.5em;
+    padding: 6px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+div#box{
+    background: linear-gradient(45deg, rgb(222, 144, 185), rgb(224, 6, 118));
+    box-shadow:  11px -11px 29px rgb(131, 126, 126),
+                 -11px 11px 29px rgb(231, 231, 231);
+
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px 0px 20px 20px;
+    border: solid 4px black;
+    width: 13em;
+    height: 21em;
+}
+#box ul li {
+  display : flex;
+  align-items : center;
+  justify-content : start;
+  gap: 6%;
+}
+
+/*              Liens               */
+
+a{
+    color: #f1f1f1;
+    gap: 10px;
+    text-decoration: none;
+    padding: 10px;
+    border: solid 3px #f1f1f1;
+}
+ul{
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+
+li > a.twitch{
+    background-color: #8e24aa;
+    /* background-color: #32a852; */
+}
+li > a.youtube{
+    background-color: #eb4034;
+}
+li > a.tiktok{
+    background-color: #d60046;
+}
+li > a.instagram{
+    background-color: #de427d;
+}
+li > a.discord{
+    /* background-color: #2b5bb4; */
+    background-color: #738adb;
+}
+li > a.facebook{
+    /* background-color: #013ea0; */
+    background-color: #3764b9;
+}    
+img.icon{
+    width: 55px;
+    height: 55px;
+}
+/*              HOVER CSS DES LIENS              */
+li > a.twitch:hover{
+    background-color: #7e2399;
+    /* background-color: #32a852; */
+}
+li > a.youtube:hover{
+    background-color: #c8361d;
+}
+li > a.tiktok:hover{
+    background-color: #ba0028;
+}
+li > a.instagram:hover{
+    background-color: #b8395f;
+}
+li > a.discord:hover{
+    background-color: #5873ac;
+}
+li > a.facebook:hover{
+    background-color: #013ea0;
+}    
+/* img.icon:hover{
+    width: 61px;
+    height: 61px;
+}
+        Y'avais une idée de Bouton pour toute la barre réseaux mais tkt pg
+*/
